@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     SensorManager sm;
     Sensor sensor;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +42,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }else{
             ll.setBackgroundColor(Color.BLUE);
         }
-
-
 
     }
 
